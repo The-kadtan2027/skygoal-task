@@ -10,7 +10,7 @@ function MainContent() {
       <section className="main">
         <div className="main-content">
           <h1 className="main-c-title">
-            Making the most of the ever-growing{" "}
+            Making the most of the ever-growing
             <span className="title-red">Information Technology</span>
           </h1>
           <p className="main-c-disc">
