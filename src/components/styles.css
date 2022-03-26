@@ -35,9 +35,12 @@ body {
   font-size: 18px;
   line-height: 21px;
   /* identical to box height */
-
+  cursor: pointer;
   /* margin-right: 50px; */
   color: rgba(31, 46, 53, 0.8);
+}
+.nav-icon {
+  cursor: pointer;
 }
 
 .nav-contact {
@@ -92,7 +95,7 @@ body {
   font-size: 20px;
   line-height: 29px;
   /* identical to box height */
-
+  cursor: pointer;
   color: #ffffff;
   padding: 12px 13px;
   background: #ee4248;
@@ -143,6 +146,18 @@ body {
   margin: auto;
   padding: 30px 0;
 }
+.product-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 133.69%;
+  /* identical to box height, or 43px */
+
+  text-align: center;
+
+  color: #1f2e35;
+}
 
 .product {
   text-align: left;
@@ -179,8 +194,15 @@ body {
 }
 
 .product-btn {
-  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 144.69%;
+  /* identical to box height, or 26px */
 
+  color: #ffffff;
+
+  padding: 8px 16px;
+  cursor: pointer;
   background: #ee4248;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
@@ -190,10 +212,12 @@ body {
 .specialist-title {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 32px;
   line-height: 140.69%;
   /* identical to box height, or 45px */
+  margin: 0;
+  padding-bottom: 10px;
 
   color: #263238;
 }
@@ -263,6 +287,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
   border: none;
+  cursor: pointer;
 }
 
 .wrapper-contact {
